@@ -9,6 +9,8 @@
 body {
     background: black;
     min-height: 100vh;
+}
+body.transition {
     transition: background 1s;
 }
 /* nav */
