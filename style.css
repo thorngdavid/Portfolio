@@ -103,7 +103,7 @@ nav {
     justify-content: center;
     gap: 10%;
 }
-.Home img {
+.heroimg {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -125,14 +125,13 @@ nav {
     gap: 25px;
 }
 .info2 a {
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .info2 a img {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
 }
 .info2 a img:active {
     background: grey;
@@ -161,6 +160,9 @@ nav {
 }
 .lightmode .info1 h1 {
     color: black;
+}
+.lightmode .info2  a {
+    background: black;
 }
 @media screen and (max-width: 1200px){
     .navbar li a {
