@@ -137,7 +137,7 @@ nav {
 }
 @keyframes moveUpDown {
 0% {
-    transform: translateY(15px);
+    transform: translateY(10px);
 }
 100% {
     transform: translateY(0);
@@ -334,6 +334,7 @@ nav {
 .experience-section2-1 img {
     width: 80px;
     height: 80px;
+    animation: moveUpDown 2s infinite alternate;
 }
 .instacart {
     display: flex;
