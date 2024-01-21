@@ -146,9 +146,24 @@ nav {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 230px;
+    padding-bottom: 150px;
     padding-top: 100px;
     background: #090f19;
+}
+.border {
+    border: 1px solid white;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.border2 {
+    border: 1px solid white;
+    width: 90%;
+    margin-top: 100px;
+}
+.border3 {
+    border: 1px solid white;
+    width: 95%;
+    margin-top: 100px;
 }
 .about h1 {
     color: white;
@@ -247,6 +262,16 @@ nav {
 }
 .lightmode .info2  a {
     background: black;
+}
+.lightmode .border {
+    border: 1px solid #5fbcff;
+}
+
+.lightmode .border2 {
+    border: 1px solid #5fbcff;
+}
+.lightmode .border3 {
+    border: 1px solid #5fbcff;
 }
 @media screen and (max-width: 1200px){
     .navbar li a {
