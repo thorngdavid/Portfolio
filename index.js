@@ -12,6 +12,9 @@ window.addEventListener("load", function() {
 const showsidebar = () => {
   sidebar.classList.toggle("show");
 }
+const closeSidebar = () => {
+  sidebar.classList.remove("show");
+}
 const lightmode = () => {
   body.classList.toggle("lightmode");
   body.classList.toggle("transition");
