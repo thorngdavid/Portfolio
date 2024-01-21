@@ -95,10 +95,10 @@ const fx = new TextScramble(document.querySelector('.text'));
 const phrases = [
   'THORNGDAVID | TD',
   'AS',
-  'A FRONTEND DEVELOPER !',
-  'A BACKEND DEVELOPER !',
-  'A UI DESIGNER !',
-  'LEARN MORE ABOUT ME ABOVE...'
+  'FRONTEND DEVELOPER',
+  'BACKEND DEVELOPER',
+  'UI DESIGNER',
+  'LEARN MORE ABOUT ME BELOW..'
 ];
 
 let counter = 0;
