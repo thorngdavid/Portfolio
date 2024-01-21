@@ -111,3 +111,16 @@ const next = () => {
 
 next();
 
+/*icon animate*/
+document.addEventListener('DOMContentLoaded', function () {
+  const experienceIcons = document.querySelectorAll('.experience-section a img');
+
+  experienceIcons.forEach(icon => {
+    icon.addEventListener('click', () => {
+      icon.classList.add('jump');
+      setTimeout(() => {
+        icon.classList.remove('jump');
+      }, 300);
+    });
+  });
+});
