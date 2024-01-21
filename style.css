@@ -133,6 +133,15 @@ nav {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    animation: moveUpDown 2s infinite alternate;
+}
+@keyframes moveUpDown {
+0% {
+    transform: translateY(15px);
+}
+100% {
+    transform: translateY(0);
+}
 }
 .info1 {
     display: flex;
