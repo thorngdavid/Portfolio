@@ -11,17 +11,17 @@
     <nav>
         <ul class="sidebar">
             <li onclick="showsidebar()"><a><svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILL</a></li>
-            <li><a href="#">PROJECT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#project">PROJECT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
         <ul class="navbar">
             <li><a href="#">David</a></li>
-            <li class="hidenavbar"><a href="#">ABOUT</a></li>
-            <li class="hidenavbar"><a href="#">SKILL</a></li>
-            <li class="hidenavbar"><a href="#">PROJECT</a></li>
-            <li class="hidenavbar"><a href="#">CONTACT</a></li>
+            <li class="hidenavbar"><a href="#about">ABOUT</a></li>
+            <li class="hidenavbar"><a href="#skill">SKILL</a></li>
+            <li class="hidenavbar"><a href="#project">PROJECT</a></li>
+            <li class="hidenavbar"><a href="#contact">CONTACT</a></li>
             <li onclick="showsidebar()"><a><svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             <li onclick="lightmode()"><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path id="lightmodesvg" d="M440-800v-120h80v120h-80Zm0 760v-120h80v120h-80Zm360-400v-80h120v80H800Zm-760 0v-80h120v80H40Zm708-252-56-56 70-72 58 58-72 70ZM198-140l-58-58 72-70 56 56-70 72Zm564 0-70-72 56-56 72 70-58 58ZM212-692l-72-70 58-58 70 72-56 56Zm268 452q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q67 0 113.5-46.5T640-480q0-67-46.5-113.5T480-640q-67 0-113.5 46.5T320-480q0 67 46.5 113.5T480-320Zm0-160Z"/></svg></a></li>
         </ul>
@@ -39,8 +39,39 @@
                 </div>
             </div>
         </div>
-        <div class="About">
-            
+        <div class="about" id="about">
+            <h1>ABOUT ME</h1>
+            <div class="about-section">
+                <div class="about1">
+                    <img class="aboutimg" src="assets/about/main2.jpg" alt="aboutImg">
+                </div>
+                <div class="about2">
+                    <div class="about2-info">
+                        <img src="assets/about/cursorIcon.png" alt="Icon">
+                        <div class="about2-info1">
+                            <h2>Frontend Developer
+                            </h2>
+                            <h3>I'm a frontend developer with experience in building responsive and optimized sites</h3>
+                        </div>
+                    </div>
+                    <div class="about2-info">
+                        <img src="assets/about/serverIcon.png" alt="Icon">
+                        <div class="about2-info1">
+                            <h2>Backend Developer
+                            </h2>
+                            <h3>I have experience developing fast and optimised back-end systems and APIs</h3>
+                        </div>
+                    </div>
+                    <div class="about2-info">
+                        <img src="assets/about/uiIcon.png" alt="Icon">
+                        <div class="about2-info1">
+                            <h2>UI Designer
+                            </h2>
+                            <h3>I have designed multiple landing pages and have created design systems as well</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>
