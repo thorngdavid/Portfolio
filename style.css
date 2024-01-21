@@ -200,12 +200,19 @@ nav {
 .about .text-scramble {
     margin-top: 30px;
     text-align: center;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .about .text-scramble .text {
     font-weight: 100;
     font-size: 28px;
-    color: #FAFAFA;
+    color: white;
     display: inline-block;
 }
 
@@ -314,5 +321,8 @@ nav {
     }
     .about2-info1 {
         width: 300px;
+    }
+    .about .text-scramble .text {
+        font-size: 20px;
     }
 }
