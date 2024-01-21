@@ -285,6 +285,7 @@ nav {
 .experience1 {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10%;
 }
 .experience-section  {
@@ -420,6 +421,11 @@ nav {
 .lightmode .experience-section2-2 .duty li {
     color: black;
 }
+@media screen and (max-width: 1320px){
+    .experience1 {
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 1200px){
     .navbar li a {
         padding: 0 30px;
@@ -480,9 +486,21 @@ nav {
         width: 100%;
     }
 }
+@media screen and (max-width: 700px){
+    .experience-section2-2 {
+        width: 350px;
+    }
+    #border3 {
+        display: none;
+    }
+    .experience-section2-1 img {
+        width: 65px;
+        height: 65px;
+    }
+}
 @media screen and (max-width: 660px){
     .waviy span {
-        font-size: 20px;
+        font-size: 15px;
     }
     .about h1 {
         font-size: 25px;
@@ -503,9 +521,55 @@ nav {
     .about .text-scramble .text {
         font-size: 20px;
     }
+
+    .experience-section2-2 h2 {
+        font-size: 25px;
+    }
+    .experience h1 {
+        font-size: 25px;
+    }
+    .Icon {
+        margin: 15px;
+    }
+    .Icon img {
+        width: 30px;
+        height: 30px;
+    }
+    .Icon h3 {
+        font-size: 13px;
+    }
+    .experience-section2-1 {
+        flex-direction: column;
+    }
+    .experience-section2-2 {
+        width: 320px;
+        margin: 10px 0;
+    }
 }
 @media screen and (max-width: 450px) {
     .waviy span {
         font-size: 16px;
+    }
+}
+/*not neccesary*/
+@media screen and (max-width: 360px){
+    .about2-info1 {
+        width: 250px;
+    }
+    .about2-info1 h2{
+        font-size: 20px;
+    }
+    .experience-section2-2 h2 {
+        font-size: 18px;
+    }
+    .experience-section2-2 {
+        width: 300px;
+    }
+    .experience-section2-2 {
+        width: 260px;
+    }
+    .Icon img {
+        width: 25px;
+        height: 25px;
     }
 }
