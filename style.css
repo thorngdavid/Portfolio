@@ -267,6 +267,35 @@ nav {
     color: #757575;
 }
 
+/*experience*/
+.experience {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.experience h1 {
+    color: white;
+    font-size: 40px;
+}
+.experience-section  {
+    margin: 10% 0;
+}
+.experience-section a {
+    cursor: pointer;
+}
+.experience-section a img {
+    border: 1px solid white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 40%;
+}
+.experience-section a img:hover {
+    background: gray;
+}
 /*lightmode*/
 .lightmode {
     background: white;
