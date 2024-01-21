@@ -238,6 +238,20 @@ nav {
         padding: 0 30px;
     }
 }
+@media screen and (max-width: 1110px){
+    .about-section {
+        gap: 15%;
+    }
+}
+@media screen and (max-width: 980px){
+    .about {
+        padding-top: 65px;
+    }
+    .about-section {
+        flex-direction: column;
+        gap: 100px;
+    }
+}
 @media screen and (max-width: 930px){
     .container {
         margin: 150px 0;
@@ -277,5 +291,20 @@ nav {
     }
     .navbar li a {
         width: 100%;
+    }
+}
+@media screen and (max-width: 660px){
+    .about h1 {
+        font-size: 30px;
+    }
+    .about2-info img {
+        width: 40px;
+        height: 40px;
+    }
+    .about2-info1 h3{
+        font-size: 17px;
+    }
+    .about2-info1 {
+        width: 300px;
     }
 }
