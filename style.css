@@ -148,6 +148,7 @@ nav {
     align-items: center;
     padding-bottom: 230px;
     padding-top: 100px;
+    background: #090f19;
 }
 .about h1 {
     color: white;
@@ -223,15 +224,6 @@ nav {
 }
 .lightmode .info2  a {
     background: black;
-}
-.lightmode .about h1 {
-    color: black;
-}
-.lightmode .about2-info1 h2{
-    color: black;
-}
-.lightmode .about2-info1 h3 {
-    color: black;
 }
 @media screen and (max-width: 1200px){
     .navbar li a {
