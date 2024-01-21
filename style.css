@@ -197,6 +197,22 @@ nav {
     color: white;
     width: 480px;
 }
+.about .text-scramble {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about .text-scramble .text {
+    font-weight: 100;
+    font-size: 28px;
+    color: #FAFAFA;
+    display: inline-block;
+}
+
+.about .text-scramble .dud {
+    color: #757575;
+}
+
 /*lightmode*/
 .lightmode {
     background: white;
