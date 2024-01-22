@@ -190,6 +190,7 @@ nav {
 .about h1 {
     color: white;
     font-size: 30px;
+    font-weight: 500;
 }
 .aboutimg {
     width: 250px;
@@ -234,6 +235,13 @@ nav {
     color: white;
     width: 480px;
 }
+.about2-info1 h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.about2-info1 h3 {
+    font-weight: 500;
+}
 .about .text-scramble {
     margin-top: 30px;
     text-align: center;
@@ -267,6 +275,7 @@ nav {
 .experience h1 {
     color: white;
     font-size: 30px;
+    font-weight: 500;
 }
 .experience1 {
     display: flex;
@@ -302,6 +311,8 @@ nav {
     border-radius: 40%;
     transition: transform 0.5s ease-in-out;
     background: #04152d;
+    width: 50px;
+    height: 50px;
 }
 .experience-section2 {
     display: flex;
@@ -315,7 +326,7 @@ nav {
     padding: 10px;
     border-radius: 20px;
     gap: 10px;
-    background: linear-gradient(to right, #04152d 80%, black 100%, #333333 100%);
+    background: #04152d;
     transition: background 2s;
     padding: 10px 20px;
 }
@@ -329,7 +340,7 @@ nav {
     align-items: center;
     justify-content: center;
     background: white;
-    transition: background 4s;
+    transition: background 2s;
     border-radius: 50px;
     padding: 5px;
 }
@@ -340,9 +351,11 @@ nav {
 }
 .experience-section2-2 h2 {
     font-size: 23px;
+    font-weight: 500;
 }
 .duty li {
     margin: 13px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* animate Icon */
 .jump {
@@ -417,6 +430,22 @@ nav {
     .experience1 {
         flex-direction: column;
     }
+    .about2-info1 {
+        width: 370px;
+    }
+    .about2-info1 h2 {
+        font-size: 20px;
+    }
+    .about2-info1 h3 {
+        font-size: 15px;
+    }
+    .waviy span {
+        font-size: 20px;
+    }
+    .Icon a img {
+        width: 40px;
+        height: 40px;
+    }
 }
 @media screen and (max-width: 1200px){
     .navbar li a {
@@ -483,6 +512,12 @@ nav {
     .navbar li a {
         width: 100%;
     }
+    .about2-info1 h2 {
+        font-size: 16px;
+    }
+    .about2-info1 h3 {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 700px){
     .experience-section2-2 {
@@ -495,6 +530,15 @@ nav {
         width: 65px;
         height: 65px;
     }
+    .about h1 {
+        font-size: 18px;
+    }
+    .experience h1 {
+        font-size: 18px;
+    }
+    .contact h1 {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 660px){
     .waviy span {
@@ -503,9 +547,6 @@ nav {
     .about2-info img {
         width: 40px;
         height: 40px;
-    }
-    .about2-info1 h3{
-        font-size: 16px;
     }
     .about2-info1 {
         width: 300px;
@@ -519,7 +560,7 @@ nav {
     .Icon {
         margin: 15px;
     }
-    .Icon img {
+    .Icon a img {
         width: 30px;
         height: 30px;
     }
@@ -547,16 +588,13 @@ nav {
     .about2-info1 {
         width: 250px;
     }
-    .about2-info1 h2{
-        font-size: 20px;
-    }
     .experience-section2-2 {
         width: 260px;
     }
     .experience-section2-2 h2 {
         font-size: 18px;
     }
-    .Icon img {
+    .Icon a img {
         width: 25px;
         height: 25px;
     }
