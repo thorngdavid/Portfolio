@@ -8,7 +8,7 @@
 }
 body {
     background: black;
-    max-height: 100vh;
+    max-height: 100vh
 }
 body.transition {
     transition: background 1s;
@@ -180,7 +180,7 @@ nav {
     align-items: center;
     padding-bottom: 150px;
     padding-top: 100px;
-    background: #090f19;
+    background: black;
 }
 .border3 {
     border: 1px solid white;
@@ -262,7 +262,7 @@ nav {
     align-items: center;
     padding-bottom: 150px;
     padding-top: 100px;
-    background: #04152d;
+    background: black;
 }
 .experience h1 {
     color: white;
@@ -296,12 +296,12 @@ nav {
     color: white;
 }
 .Icon a img {
-    border: 1px solid white;
+    border: 3px solid white;
     padding: 20px;
     margin: 10px 0;
     border-radius: 40%;
     transition: transform 0.5s ease-in-out;
-    background: #19376d;
+    background: #04152d;
 }
 .experience-section2 {
     display: flex;
@@ -315,7 +315,7 @@ nav {
     padding: 10px;
     border-radius: 20px;
     gap: 10px;
-    background: linear-gradient(to right, #000000 0%, #1a1a1a 100%, #333333 100%);
+    background: linear-gradient(to right, #04152d 80%, black 100%, #333333 100%);
     transition: background 2s;
     padding: 10px 20px;
 }
@@ -383,22 +383,34 @@ nav {
 .lightmode .waviy span {
     color: white;
 }
-.lightmode .experience-section2-1 {
-    background: linear-gradient(to right, #f0f0f0 0%, #ffffff 50%, #f9f9f9 100%);
-    margin: 0;
+.lightmode .experience {
+    background: white;
+}
+.lightmode .experience h1 {
+    color: black;
+}
+.lightmode .Icon h3 {
+    color: black;
+}
+.lightmode .Icon a img {
+    border: 3px solid #5fbcff;
 }
 .lightmode .experience-section2-1 .instacart {
     background: black;
 }
-.lightmode .experience-section2-2 h2 {
+.lightmode .about {
+    background: white;
+}
+.lightmode .about h1 {
     color: black;
 }
-
-.lightmode .experience-section2-2 p {
+.lightmode .about2-info1 h2 {
     color: black;
 }
-
-.lightmode .experience-section2-2 .duty li {
+.lightmode .about2-info1 h3 {
+    color: black;
+}
+.lightmode .about .text-scramble .text {
     color: black;
 }
 @media screen and (max-width: 1320px){
