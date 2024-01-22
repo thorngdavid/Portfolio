@@ -524,10 +524,6 @@ nav {
     .about .text-scramble .text {
         font-size: 20px;
     }
-
-    .experience-section2-2 h2 {
-        font-size: 15px;
-    }
     .Icon {
         margin: 15px;
     }
@@ -545,6 +541,9 @@ nav {
         width: 320px;
         margin: 10px 0;
     }
+    .experience-section2-2 h2 {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 450px) {
     .waviy span {
@@ -560,10 +559,10 @@ nav {
         font-size: 20px;
     }
     .experience-section2-2 {
-        width: 300px;
-    }
-    .experience-section2-2 {
         width: 260px;
+    }
+    .experience-section2-2 h2 {
+        font-size: 18px;
     }
     .Icon img {
         width: 25px;
