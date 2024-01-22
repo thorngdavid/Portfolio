@@ -60,7 +60,7 @@ nav {
     }
 }
 
-.navbar li:nth-of-type(6){
+.navbar li:nth-of-type(5){
     display: none;
 }
 .navbar li a {
@@ -458,7 +458,7 @@ nav {
     .navbar .hidenavbar {
         display: none;
     }   
-    .navbar li:nth-of-type(6){
+    .navbar li:nth-of-type(5){
         display: flex;
         width: 40%;
     }
