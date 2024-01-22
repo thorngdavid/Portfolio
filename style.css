@@ -8,7 +8,7 @@
 }
 body {
     background: black;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 body.transition {
     transition: background 1s;
