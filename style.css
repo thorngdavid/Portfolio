@@ -546,6 +546,23 @@ nav {
     .about-section {
         gap: 15%;
     }
+    .contact1 label {
+        font-size: 15px;
+    }
+    .contact1 input {
+        width: 350px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .contact1 textarea {
+        width: 350px;
+        height: 150px;
+        font-size: 15px;
+    }
+    .contact1 input::placeholder,
+    .contact1 textarea::placeholder {
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 980px){
     .about {
@@ -629,6 +646,20 @@ nav {
     .contact h1 {
         font-size: 18px;
     }
+    .contact1 input {
+        width: 250px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .contact1 textarea {
+        width: 250px;
+        height: 150px;
+        font-size: 13px;
+    }
+    .contact1 input::placeholder,
+    .contact1 textarea::placeholder {
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 660px){
     .waviy span {
@@ -687,5 +718,15 @@ nav {
     .Icon a img {
         width: 25px;
         height: 25px;
+    }
+    .contact1 input {
+        width: 230px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .contact1 textarea {
+        width: 230px;
+        height: 150px;
+        font-size: 13px;
     }
 }

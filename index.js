@@ -129,14 +129,25 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function sendEmail() {
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
+  var nameInput = document.getElementById("name");
+  var emailInput = document.getElementById("email");
+  var messageInput = document.getElementById("message");
+
+  var name = nameInput.value;
+  var email = emailInput.value;
+  var message = messageInput.value;
 
 
   var subject = "New Contact Form Submission";
   var body = "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message;
+
+  nameInput.value = "";
+  emailInput.value = "";
+  messageInput.value = "";
+
   var mailtoLink = "mailto:31daviddt31@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
-  window.location.href = mailtoLink;
+  setTimeout(function() {
+      window.location.href = mailtoLink;
+  }, 100);
 }
