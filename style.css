@@ -362,6 +362,71 @@ nav {
     transform: translateY(-20px);
 }
 
+/*contact*/
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+    width: 100%;
+    background: black;
+}
+.contact h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.contact1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contact1 label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact1 input {
+    padding: 0 30px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.contact1 textarea {
+    margin-bottom: 30px;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.contact1 input::placeholder,
+.contact1 textarea::placeholder {
+    text-align: center;
+    line-height: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999;
+}
+.contact1 button {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+    background: black;
+    color: white;
+}
+.contact1 button:active {
+    transform: translateY(-5px);
+    background: #5fbcff;
+}
 /*lightmode*/
 .lightmode {
     background: white;
@@ -425,6 +490,31 @@ nav {
 }
 .lightmode .about .text-scramble .text {
     color: black;
+}
+.lightmode .contact {
+    background: white;
+}
+.lightmode .contact h1 {
+    color: black;
+}
+.lightmode .contact1 label {
+    color: black;
+}
+.lightmode .contact1 input {
+    background: black;
+    color: white;
+}
+.lightmode .contact1 textarea {
+    background: black;
+    color: white;
+}
+.lightmode .contact1 button {
+    background: white;
+    border: 3px solid black;
+    color: black;
+}
+.lightmode .contact1 button:active {
+    background: #5fbcff;
 }
 @media screen and (max-width: 1320px){
     .experience1 {
