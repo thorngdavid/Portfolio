@@ -437,6 +437,7 @@ nav {
 
 .jumping {
   animation: jump 0.5s;
+  background: #5fbcff;
 }
 /*lightmode*/
 .lightmode {
