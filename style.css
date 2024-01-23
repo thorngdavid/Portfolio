@@ -428,7 +428,7 @@ nav {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(0);
@@ -437,7 +437,6 @@ nav {
 
 .jumping {
   animation: jump 0.5s;
-  background: #5fbcff;
 }
 /*lightmode*/
 .lightmode {
