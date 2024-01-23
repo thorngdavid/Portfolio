@@ -127,3 +127,16 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+function sendEmail() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+
+  var subject = "New Contact Form Submission";
+  var body = "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message;
+  var mailtoLink = "mailto:31daviddt31@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+  window.location.href = mailtoLink;
+}
