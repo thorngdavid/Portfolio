@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 document.getElementById("submitbtn").addEventListener("click", function() {
   this.classList.add("jumping");
-  setTimeout(() => this.classList.remove("jumping"), 500);
+  setTimeout(() => this.classList.remove("jumping"), 300);
 });
 function sendEmail() {
   var nameInput = document.getElementById("name");
