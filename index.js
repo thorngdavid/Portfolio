@@ -127,7 +127,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
-
+document.getElementById("submitbtn").addEventListener("click", function() {
+  this.classList.add("jumping");
+  setTimeout(() => this.classList.remove("jumping"), 500);
+});
 function sendEmail() {
   var nameInput = document.getElementById("name");
   var emailInput = document.getElementById("email");
