@@ -137,6 +137,10 @@ function sendEmail() {
   var email = emailInput.value;
   var message = messageInput.value;
 
+  if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+      alert("Please fill in all required fields before sending the email.");
+      return;
+  }
 
   var subject = "New Contact Form Submission";
   var body = "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message;
