@@ -8,7 +8,7 @@
 }
 body {
     background: black;
-    max-height: 100vh
+    min-height: 100vh;
 }
 body.transition {
     transition: background 1s;
@@ -180,7 +180,6 @@ nav {
     align-items: center;
     padding-bottom: 150px;
     padding-top: 100px;
-    background: black;
 }
 .border3 {
     border: 1px solid white;
@@ -270,7 +269,6 @@ nav {
     align-items: center;
     padding-bottom: 150px;
     padding-top: 100px;
-    background: black;
 }
 .experience h1 {
     color: white;
@@ -313,6 +311,9 @@ nav {
     background: #04152d;
     width: 50px;
     height: 50px;
+}
+.Icon a img:hover {
+    transform: translateY(-20px);
 }
 .experience-section2 {
     display: flex;
@@ -370,7 +371,6 @@ nav {
     flex-direction: column;
     padding: 100px 0;
     width: 100%;
-    background: black;
 }
 .contact h1 {
     color: white;
@@ -472,9 +472,6 @@ nav {
 .lightmode .waviy span {
     color: white;
 }
-.lightmode .experience {
-    background: white;
-}
 .lightmode .experience h1 {
     color: black;
 }
@@ -487,9 +484,6 @@ nav {
 .lightmode .experience-section2-1 .instacart {
     background: black;
 }
-.lightmode .about {
-    background: white;
-}
 .lightmode .about h1 {
     color: black;
 }
@@ -501,9 +495,6 @@ nav {
 }
 .lightmode .about .text-scramble .text {
     color: black;
-}
-.lightmode .contact {
-    background: white;
 }
 .lightmode .contact h1 {
     color: black;
